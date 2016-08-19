@@ -17,3 +17,95 @@ body {
   font-family: 'Nunito-Regular';
   src: local('./fonts/Nunito-Regular.ttf'), url('./fonts/Nunito-Regular.ttf') format('truetype');
 }
+
+/* COVER SECTION */
+
+#cover {
+  height: 100%;
+  background: url(../img/trees.jpg) center;
+  background-size: cover;
+  color: white;
+}
+
+.wall-sticker {
+  background: rgba(0,0,0,0.4);
+  padding: 14rem 20rem 16rem 3rem;
+  font-family: 'Cubano-Regular';
+  font-size: 3rem !important;
+}
+
+.moto {
+  font-family: 'Cubano-Regular';
+  font-size: 2rem;
+  margin-top: 165px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Cubano-Regular';
+  padding-right: 15px;
+}
+
+#main-nav {
+  font-family: 'Nunito-Regular';
+}
+
+#main-nav li a {
+  border-bottom: 1px solid transparent;
+  transition: 0.5s;
+}
+
+#main-nav li a:hover {
+  border-bottom: 1px solid green;
+  transition: 0.5s;
+}
+
+/* BUTTONS */
+
+.btn-lg,
+.btn-success-outline {
+  color: white;
+  background-color: transparent !important;
+  border-radius: 5px;
+  border: 1px solid rgba(19, 128, 26, 1) !important;
+  font-family: 'Nunito-Regular';
+  transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+  background-color: rgba(19, 128, 36, 0.54) !important;
+  border: 1px solid rgba(19, 128, 26, 0) !important;
+  transition: 0.5s;
+}
+
+.fa-arrow-down {
+  margin-left: 40rem;
+  margin-top: 50px;
+  font-size: 2.5rem !important;
+  color: white;
+}
+
+.fa-arrow-down:hover {
+  color: rgba(19, 128, 36, 0.54);
+  transition: 0.3s;
+}
+
+/* SPANS */
+
+.bold-green {
+  color: rgba(19, 128, 36, 0.9);
+  font-weight: bold;
+}
+
+.green-underline {
+  border-bottom: 1px solid rgba(19, 128, 36, 0.9);
+}
