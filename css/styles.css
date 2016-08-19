@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Cubano-Regular' !important;
+  background: url(../img/pattern.jpg) center center;
+}
+
+/* FONT FACES */
+
+@font-face {
+  font-family: 'Cubano-Regular';
+  src: local('./fonts/Cubano-Regular.otf'), url('./fonts/Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: local('./fonts/Nunito-Regular.ttf'), url('./fonts/Nunito-Regular.ttf') format('truetype');
+}
