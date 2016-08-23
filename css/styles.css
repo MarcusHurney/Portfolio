@@ -350,6 +350,7 @@ h2 {
   background: rgba(19, 128, 36, 0.94);
   border-radius: 50%;
   color: white;
+  transition: 0.3s;
 }
 
 .num .num-content {
@@ -357,19 +358,63 @@ h2 {
   vertical-align: middle;
 }
 
+.num-content:hover {
+  color: #222;
+  transition: 0.3s;
+}
+
 .num-content p {
   padding-top: 15px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* END NUMBERS */
+
+
+/* BEGIN TESTIMONIALS */
+
+.section-testimonials {
+  padding-top: 5rem;
+}
+
+.testimonial {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.mario-image,
+.monice-image,
+.monka-image {
+  width: 135px;
+  height: auto;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.mario-image:hover,
+.monice-image:hover,
+.monka-image:hover {
+  transition: 0.5s;
+  transform: scale(0.95);
+}
+
+blockquote {
+  font-family: 'Nunito-Regular';
+}
+
+.fa.fa-quote-left {
+  padding-right: 10px;
+}
+
+.testimonials-hr {
+  border-top: 1px solid rgba(19, 128, 36, 1);
+  width: 260px;
+  background-color: rgba(19, 128, 36, 1);
+}
+
+.testimonial .quote-col {
+  padding-left: 3rem;
+}
+
+
+/* END TESTIMONIALS */
