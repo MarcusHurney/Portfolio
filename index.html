@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"  />
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="./css/font-awesome/css/font-awesome.min.css"  />
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css" href="./css/animate.css"  />
 
     <title>Web Development Portfolio</title>
   </head>
@@ -17,7 +19,7 @@
 
 
 
-    <!-- Begin Cover Section -->
+    <!-- Begin Cover  -->
     <section id="cover">
       <div class="container">
         <div class="row">
@@ -26,20 +28,20 @@
               we. <br />
               plant. <br />
               trees. <br />
-              <a href="#"><button id="learnBtn" type="button" class="btn btn-primary btn-lg">Learn More</button></a>
+              <a href="#features"><button id="learnBtn" type="button" class="btn btn-primary btn-lg">Learn More</button></a>
             </p>
           </div>
-          <div class="col-sm-9">
+          <div class="col-sm-9 hidden-xs-down ">
             <h1 class="moto">
               For <span class="bold-green">every</span> item sold, we plant 1 tree. <br /> <br />
               Want to become a <span class="green-underline">part</span> of it?
             </h1>
-            <a href="#"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
+            <a href="#section-cards"><i class="fa fa-arrow-down" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
     </section>
-    <!-- End Cover Section -->
+    <!-- End Cover -->
 
 
 
@@ -47,31 +49,31 @@
 
     <!-- Begin Navbar -->
     <nav class="navbar navbar-dark bg-inverse navbar-full" id="main-nav">
-      <a class="navbar-brand" href="#">ONE <span class="bold-green">TREE</span></a>
+      <a class="navbar-brand" href="#cover">ONE <span class="bold-green">TREE</span></a>
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#cover">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#features">Features</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Timeline</a>
+          <a class="nav-link" href="#timeline">Timeline</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link" href="#section-cards">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Numbers</a>
+          <a class="nav-link" href="#numbers">Numbers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonials</a>
+          <a class="nav-link" href="#testimonials">Testimonials</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
         </li>
       </ul>
-      <form class="form-inline pull-xs-right">
+      <form class="form-inline pull-xs-right hidden-md-down">
         <input class="form-control" type="text" placeholder="Search" />
         <button class="btn btn-success-outline" type="submit">Search</button>
       </form>
@@ -88,29 +90,29 @@
       <div class="section-features">
         <div class="container">
 
-          <h2 class="heading">What <span class="bold-green">we</span> do?</h2>
-          <p class="lead under-heading">Take a look at what we do as a company</p>
+          <h2 class="heading js-wp-1">What <span class="bold-green">we</span> do?</h2>
+          <p class="lead under-heading js-wp-1">Take a look at what we do as a company</p>
 
           <div class="row">
-            <div class="col-sm-3 square">
+            <div class="col-sm-3 square js-wp-2">
               <i class="fa fa-tree fa-5x"></i>
               <hr class="green-hr" />
               <p>I chug bottles of liquor with christians</p>
             </div>
 
-            <div class="col-sm-3 square">
+            <div class="col-sm-3 square js-wp-4">
               <i class="fa fa-leaf fa-5x"></i>
               <hr class="green-hr" />
               <p>I chug bottles of liquor with christians</p>
             </div>
 
-            <div class="col-sm-3 square">
+            <div class="col-sm-3 square js-wp-4">
               <i class="fa fa-pagelines fa-5x"></i>
               <hr class="green-hr" />
               <p>I chug bottles of liquor with christians</p>
             </div>
 
-            <div class="col-sm-3 square">
+            <div class="col-sm-3 square js-wp-3">
               <i class="fa fa-recycle fa-5x"></i>
               <hr class="green-hr" />
               <p>lkndjsdbgjhrbgjkrgkj</p>
@@ -199,7 +201,7 @@
           <div class="col-sm-8 offset-sm-2">
             <h2>Are you ready to be a part of the <strong>story</strong>?</h2>
             <p>
-              <a href="#" class="btn btn-lg btn-block btn-success parallax-btn">
+              <a href="#contact" class="btn btn-lg btn-block btn-success parallax-btn">
                 Yes, please!
               </a>
             </p>
@@ -379,6 +381,103 @@
     </section>
     <!-- End Testimonials -->
 
+    <!-- Start Contact -->
+    <section id="contact">
+      <div class="section-contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <h2>Leave Us A <span class="bold-green">Message</span>!</h2>
+              <form class="form-horizontal" role="form" method="post" action="index.php">
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 control-label">Name</label>
+                  <div class="col-sm-10">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      name="name"
+                      placeholder="First and Last Name" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="col-sm-2 control-label">Email</label>
+                  <div class="col-sm-10">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      placeholder="example@domain.com" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="col-sm-2 control-label">Message</label>
+                  <div class="col-sm-10">
+                    <textarea
+                      class="form-control"
+                      row="4"
+                      id="message"
+                      name="message"></textarea>
+                  </div>
+                </div>
+                <div id="captcha" class="form-group">
+                  <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                  <div class="col-sm-10">
+                    <input
+                      class="form-control"
+                      type="text"
+                      id="human"
+                      name="human"
+                      placeholder="Your answer"/>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-4 offset-sm-4">
+                    <input
+                      id="submit"
+                      name="submit"
+                      type="submit"
+                      value="Send the raven!"
+                      class="btn btn-success" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10 offset-sm-2">
+                    <!-- alert box to display form errors -->
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Begin Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <p>Copyright &copy; Marcus Hurney</p>
+          </div>
+          <div class="col-sm-4">
+            <ul class="social-links">
+              <li><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 scroll-to-top-button">
+            <a href="#cover"><i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
 
 
 
@@ -386,6 +485,8 @@
     <script src="./js/jquery-3.1.0.min.js"></script>
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="./js/jquery.waypoints.min.js"></script>
     <!-- main.js -->
     <script src="./js/main.js"></script>
   </body>
