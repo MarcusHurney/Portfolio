@@ -5,8 +5,6 @@ color: rgba(19, 128, 36, 0.54);
 */
 
 
-
-
 /* BEGIN GLOBAL */
 
 html,
@@ -145,6 +143,10 @@ h2 {
 #main-nav li a:hover {
   border-bottom: 1px solid green;
   transition: 0.5s;
+}
+
+.navbar-toggler {
+  color: white;
 }
 
 
@@ -592,10 +594,53 @@ footer p {
 
 /* BEGIN MEDIA QUERIES */
 
+
+
+@media only screen and (max-width: 480px) {
+  /* Numbers */
+  .num {
+    margin-left: 33% !important;
+  }
+
+}
+
+@media only screen and (max-width: 545px) {
+
+  /* Testimonials */
+  .mario-image,
+  .monka-image,
+  .monice-image {
+    width: 140px !important;
+    margin-left: 33%;
+    margin-bottom: 50px;
+  }
+
+  .testimonials-hr {
+    width: 100% !important;
+  }
+
+}
+
 @media only screen and (max-width: 775px) {
   /* Cover */
   .fa-arrow-down {
     margin-right: -50px;
+  }
+
+  /* Numbers */
+  .num {
+    margin-left: 0;
+  }
+
+  /* Contact */
+
+  .section-contact {
+    background-color: white;
+    padding: 7rem 0 3rem;
+  }
+
+  .section-contact .form-group {
+    text-align: center;
   }
 
 }
@@ -607,7 +652,7 @@ footer p {
     position: absolute;
     right: 150px !important;
   }
-  
+
   /* Footer */
   .social-links li {
     margin-right: 5px;
@@ -615,10 +660,7 @@ footer p {
 }
 
 @media only screen and (max-width: 1024px) {
-  /* Navbar */
-  .navbar {
-    font-size: 15px;
-  }
+
   /* Cover */
   .fa-arrow-down {
     position: absolute;

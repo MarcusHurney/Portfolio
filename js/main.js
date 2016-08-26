@@ -27,6 +27,9 @@ $(document).ready(function() {
     });
   });
 
+
+  // BEGIN ANIMATONS -------------------------------------------------->
+
   // add fadeInDown animation
   $('.js-wp-1').waypoint(function(direction) {
     $('.js-wp-1').addClass('animated fadeInDown');
@@ -59,6 +62,7 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  // END ANIMATONS -------------------------------------------------->
 
 
 
