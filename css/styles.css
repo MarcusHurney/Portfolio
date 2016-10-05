@@ -376,14 +376,31 @@ h2 {
   color: #F7484E;
 }
 
-.card img {
-  height: 180px;
-  width: 100%;
-}
+
+
+/*Add media query for img*/
 
 .card img:hover {
   transform: scale(0.98);
 }
+
+.techs-used {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.techs-used .col-md-4 {
+  margin: 10px 0;
+}
+
+.techName {
+  text-align: center;
+  border: 2px solid #989898;
+  border-radius: 5px;
+  color: #585858;
+  padding: 5px;
+}
+
 
 /* END CARDS */
 
