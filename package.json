@@ -1,0 +1,28 @@
+{
+  "name": "my-dev-portfolio",
+  "version": "1.0.0",
+  "description": "A personal page containing my work flow and projects.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusHurney/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "react"
+  ],
+  "author": "Marcus Hurney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusHurney/Portfolio/issues"
+  },
+  "homepage": "https://github.com/MarcusHurney/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
