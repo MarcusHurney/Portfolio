@@ -401,6 +401,18 @@ h2 {
   padding: 5px;
 }
 
+.card-block i {
+  float: right;
+  font-size: 6em;
+  transition: all 0.3s ease-in-out;
+  color: black;
+}
+
+.card-block i:hover {
+  cursor: pointer;
+  color: #F7484E;
+}
+
 
 /* END CARDS */
 
@@ -438,7 +450,10 @@ h2 {
   transition: all 0.3s ease-in-out;
 }
 
+
+
 .num-content:hover {
+  cursor: pointer;
   background-color: rgba(0, 0, 0, 0.8 );
   color: rgba(0, 0, 0, 0 ) !important;
   background-image: url('../img/eye.png');
@@ -447,6 +462,9 @@ h2 {
   background-repeat: no-repeat;
   border-color: rgba(0, 0, 0, 0);
 }
+
+
+
 
 .num .num-content {
   display: table-cell;
@@ -732,6 +750,81 @@ footer p {
 }
 
 .js-wp-11.animated {
+  opacity: 1;
+}
+
+.js-wp-12 {
+  opacity: 0;
+}
+
+.js-wp-12.animated {
+  opacity: 1;
+}
+
+.js-wp-13 {
+  opacity: 0;
+}
+
+.js-wp-13.animated {
+  opacity: 1;
+}
+.js-wp-14 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-14.animated {
+  opacity: 1;
+}
+
+.js-wp-15 {
+  opacity: 0;
+}
+
+.js-wp-15.animated {
+  opacity: 1;
+}
+
+.js-wp-16 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-16.animated {
+  opacity: 1;
+}
+
+.js-wp-17 {
+  opacity: 0;
+}
+
+.js-wp-17.animated {
+  opacity: 1;
+}
+
+.js-wp-18 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-18.animated {
+  opacity: 1;
+}
+
+.js-wp-19 {
+  opacity: 0;
+}
+
+.js-wp-19.animated {
+  opacity: 1;
+}
+
+.js-wp-20 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-20.animated {
   opacity: 1;
 }
 

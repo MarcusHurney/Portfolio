@@ -118,6 +118,76 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js-wp-12').waypoint(function(direction) {
+    $('.js-wp-12').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-13').waypoint(function(direction) {
+    $('.js-wp-13').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-14').waypoint(function(direction) {
+    $('.js-wp-14').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-14').waypoint(function(direction) {
+    $('.js-wp-14').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-15').waypoint(function(direction) {
+    $('.js-wp-15').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-16').waypoint(function(direction) {
+    $('.js-wp-16').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-17').waypoint(function(direction) {
+    $('.js-wp-17').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-18').waypoint(function(direction) {
+    $('.js-wp-18').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-19').waypoint(function(direction) {
+    $('.js-wp-19').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  $('.js-wp-20').waypoint(function(direction) {
+    $('.js-wp-20').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
   // END ANIMATONS -------------------------------------------------->
 
 
