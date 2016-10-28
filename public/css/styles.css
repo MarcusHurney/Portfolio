@@ -421,9 +421,37 @@ h2 {
 
 .section-numbers {
   background-color: white;
-  padding-top: 5rem;
+  padding: 5rem 0;
 }
 
+.section-numbers .under-heading {
+  padding-bottom: 3em;
+}
+
+
+.fork {
+  text-align: center;
+}
+
+.forkTitle {
+  font-size: 1.2em;
+}
+
+.fork i {
+  padding-bottom: 20px;
+  color: #F7484E;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.fork i:hover {
+  font-size: 8.0em;
+  color: #585858;
+}
+
+#techNameBox {
+  margin-bottom: 15px;
+}
 #numbers h2 {
   padding-bottom: 2rem;
 }
@@ -880,6 +908,11 @@ footer p {
 
   .section-contact .form-group {
     text-align: center;
+  }
+
+  /* Numbers */
+  .fork i {
+    padding-top: 50px;
   }
 
 }
