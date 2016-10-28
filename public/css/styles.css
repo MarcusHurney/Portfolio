@@ -849,10 +849,44 @@ footer p {
 
 .js-wp-20 {
   opacity: 0;
-  animation-delay: 0.2s;
 }
 
 .js-wp-20.animated {
+  opacity: 1;
+}
+
+.js-wp-21 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-21.animated {
+  opacity: 1;
+}
+
+.js-wp-22 {
+  opacity: 0;
+  animation-delay: 0.4s;
+}
+
+.js-wp-22.animated {
+  opacity: 1;
+}
+
+.js-wp-23 {
+  opacity: 0;
+  animation-delay: 0.6s;
+}
+
+.js-wp-23.animated {
+  opacity: 1;
+}
+.js-wp-24 {
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+.js-wp-24.animated {
   opacity: 1;
 }
 

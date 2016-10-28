@@ -188,6 +188,34 @@ $(document).ready(function() {
     offset: '50%'
   });
 
+  $('.js-wp-21').waypoint(function(direction) {
+    $('.js-wp-21').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
+  $('.js-wp-22').waypoint(function(direction) {
+    $('.js-wp-22').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
+  $('.js-wp-23').waypoint(function(direction) {
+    $('.js-wp-23').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
+  $('.js-wp-24').waypoint(function(direction) {
+    $('.js-wp-24').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
   // END ANIMATONS -------------------------------------------------->
 
 
