@@ -216,6 +216,20 @@ $(document).ready(function() {
     offset: '70%'
   });
 
+  $('.js-wp-25').waypoint(function(direction) {
+    $('.js-wp-25').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
+  $('.js-wp-26').waypoint(function(direction) {
+    $('.js-wp-26').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
   // END ANIMATONS -------------------------------------------------->
 
 

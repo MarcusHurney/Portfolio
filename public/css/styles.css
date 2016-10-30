@@ -853,6 +853,7 @@ footer p {
 
 .js-wp-20.animated {
   opacity: 1;
+  animation-delay: 0.2s;
 }
 
 .js-wp-21 {
@@ -875,7 +876,7 @@ footer p {
 
 .js-wp-23 {
   opacity: 0;
-  animation-delay: 0.6s;
+  animation-delay: 0.2s;
 }
 
 .js-wp-23.animated {
@@ -883,12 +884,32 @@ footer p {
 }
 .js-wp-24 {
   opacity: 0;
-  animation-delay: 0.8s;
+  animation-delay: 0.4s;
 }
 
 .js-wp-24.animated {
   opacity: 1;
 }
+
+.js-wp-25 {
+  opacity: 0;
+  animation-delay: 0.6s;
+}
+
+.js-wp-25.animated {
+  opacity: 1;
+}
+
+.js-wp-26 {
+  opacity: 0;
+  animation-delay: 0.8s;
+}
+
+.js-wp-26.animated {
+  opacity: 1;
+}
+
+
 
 
 /* END ANIMATIONS */
