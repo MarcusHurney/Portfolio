@@ -817,6 +817,14 @@ footer p {
   opacity: 1;
 }
 
+.js-wp-10-5 {
+  opacity: 0;
+}
+
+.js-wp-10-5.animated {
+  opacity: 1;
+}
+
 .js-wp-11 {
   opacity: 0;
 }

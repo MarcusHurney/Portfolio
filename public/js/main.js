@@ -128,6 +128,14 @@ $(document).ready(function() {
   });
 
   // add flipInX animation
+  $('.js-wp-10-5').waypoint(function(direction) {
+    $('.js-wp-10-5').addClass('animated flipInX');
+  }, {
+    // offset determines when the animation should start
+    offset: '50%'
+  });
+
+  // add flipInX animation
   $('.js-wp-11').waypoint(function(direction) {
     $('.js-wp-11').addClass('animated flipInX');
   }, {
