@@ -30,12 +30,29 @@ $(document).ready(function() {
 
   // BEGIN ANIMATONS -------------------------------------------------->
 
+  // animations for gavel and bug in cover section ------>
+  // bug
+  $('.js-wp-100').waypoint(function(direction) {
+    $('.js-wp-100').addClass('animated bounceInUp');
+  }, {
+    // offset determines when the animation should start
+    offset: '45%'
+  });
+  // gavel
+  $('.js-wp-200').waypoint(function(direction) {
+    $('.js-wp-200').addClass('animated rotateInDownRight');
+  }, {
+    // offset determines when the animation should start
+    offset: '45%'
+  });
+  // end gavel and bug in cover section ------>
+
   // add fadeInDown animation
   $('.js-wp-1').waypoint(function(direction) {
     $('.js-wp-1').addClass('animated fadeIn');
   }, {
     // offset determines when the animation should start
-    offset: '50%'
+    offset: '45%'
   });
 
   // add fadeInLeft animation
@@ -43,7 +60,7 @@ $(document).ready(function() {
     $('.js-wp-2').addClass('animated fadeIn');
   }, {
     // offset determines when the animation should start
-    offset: '50%'
+    offset: '45%'
   });
 
   // add fadeInRight animation

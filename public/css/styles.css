@@ -710,6 +710,29 @@ footer p {
 
 /* BEGIN ANIMATIONS */
 
+/* Start Bug and Gavel */
+
+/* Bug */
+.js-wp-100 {
+  opacity: 0;
+}
+
+.js-wp-100.animated {
+  opacity: 1;
+  -webkit-animation-duration: 2s;
+}
+
+/* Gavel */
+.js-wp-200 {
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+.js-wp-200.animated {
+  opacity: 1;
+}
+/* End Bug and Gavel */
+
 .js-wp-1 {
   opacity: 0;
 }
