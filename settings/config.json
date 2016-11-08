@@ -1,0 +1,7 @@
+{
+  "development": {
+    "PORT": 3000,
+    "SEND_USER": "marcushurney",
+    "SEND_PASS": "shandonghuapp2"
+  }
+}

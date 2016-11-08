@@ -1,4 +1,27 @@
 $(document).ready(function() {
+  // send email function
+    var submitBtn = jQuery('#submit');
+
+    submitBtn.on('click', function (event) {
+      event.preventDefault();
+
+      var name = $('#name').val();
+      var email = $('#email').val();
+      var message = $('#message').val();
+
+      var jsonData = JSON.stringify({
+        name: name,
+        email: email,
+        message: message
+      });
+
+      $.ajax({
+        type: "POST",
+        url: "/mail",
+        data: jsonData,
+        dataType: "json"
+      });
+    });
 
   // implement sticky navbar
   $(window).scroll(function() {
@@ -26,6 +49,10 @@ $(document).ready(function() {
         window.location.hash = target;
     });
   });
+
+
+
+
 
 
   // BEGIN ANIMATONS -------------------------------------------------->
