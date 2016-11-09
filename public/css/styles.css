@@ -627,6 +627,46 @@ input:focus {
 
 /* END CONTACT */
 
+/* BEGIN MODAL */
+.modal-content {
+  margin-top: 40%;
+}
+.modal button {
+  border-color: #F7484E;
+  background-color: #F7484E;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  background-color: #292929;
+  color: #F7484E;
+}
+
+.modal-header span {
+  color: white !important;
+}
+
+.modal-body {
+  text-align: center;
+  color: white;
+  background-color: #292929;
+}
+
+.modal-footer {
+  background-color: #292929;
+}
+
+#modalName {
+  font-size: 1.3em;
+  padding-top: 15px;
+  text-align: left;
+  color: #F7484E;
+  font-family: 'Permanent Marker', cursive;
+  padding-bottom: 25px;
+}
+/* END MODAL */
+
 /* BEGIN FOOTER */
 
 footer {

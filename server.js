@@ -19,7 +19,6 @@ app.get('/', function (req, res) {
 });
 
 app.post('/mail', function(req, res, next) {
-  console.log(req.body);
   var smtpTransport = nodemailer.createTransport('SMTP',
     {
       service: 'SendGrid',

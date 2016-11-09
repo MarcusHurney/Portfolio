@@ -76,9 +76,6 @@
             <a class="nav-link" href="#repositories">Repositories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
@@ -922,7 +919,8 @@
                 <span class="techName">React</span>
                 <span class="techName">Redux</span>
               </div>
-              <span class="techName">Firebase</span>
+              <span class="techName">Node</span>
+              <span class="techName">Express</span>
               <span class="techName">Passport</span>
             </div><!-- .col-sm-3 -->
 
@@ -1008,7 +1006,9 @@
                       name="submit"
                       type="submit"
                       value="Send Message"
-                      class="btn btn-success" />
+                      class="btn btn-success"
+                      data-toggle="modal" data-target="#myModal"
+                     />
                   </div>
                 </div>
                 <div class="form-group">
@@ -1023,6 +1023,29 @@
       </div>
     </section>
     <!-- End Contact -->
+
+    <!-- Begin Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Message Sent!</h4>
+          </div>
+          <div class="modal-body">
+            Thank you for your inquiry. I'll get back to you within 24 hours.
+          </div>
+          <div class="modal-footer">
+            <div id="modalName" class="col-xs-6">
+              - Marcus Hurney
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
 
     <!-- Begin Footer -->
     <footer class="footer">

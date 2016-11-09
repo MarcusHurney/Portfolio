@@ -8,19 +8,36 @@ $(document).ready(function() {
       var name = $('#name').val();
       var email = $('#email').val();
       var message = $('#message').val();
+      var answer = $('#human').val();
 
-      var jsonData = JSON.stringify({
-        name: name,
-        email: email,
-        message: message
-      });
+      if (answer === '5') {
+        var jsonData = JSON.stringify({
+          name: name,
+          email: email,
+          message: message
+        });
 
-      $.ajax({
-        type: "POST",
-        url: "/mail",
-        data: jsonData,
-        dataType: "json"
-      });
+        var success = function() {
+          name = $('#name').val('')
+          email = $('#email').val('');
+          message = $('#message').val('');
+          answer = $('#human').val('');
+        };
+
+        $.ajax({
+          type: "POST",
+          url: "/mail",
+          data: jsonData,
+          success: success,
+          dataType: "json"
+        });
+      } else {
+        name = $('#name').val('')
+        email = $('#email').val('');
+        message = $('#message').val('');
+        answer = $('#human').val('');
+        return;
+      }
     });
 
   // implement sticky navbar
