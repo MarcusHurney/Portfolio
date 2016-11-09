@@ -1000,6 +1000,15 @@ footer p {
   opacity: 1;
 }
 
+.js-wp-27 {
+  opacity: 0;
+  animation-delay: 0.2s;
+}
+
+.js-wp-27.animated {
+  opacity: 1;
+}
+
 
 
 

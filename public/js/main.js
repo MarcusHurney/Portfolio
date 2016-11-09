@@ -299,6 +299,14 @@ $(document).ready(function() {
     offset: '70%'
   });
 
+ // react native animation
+  $('.js-wp-27').waypoint(function(direction) {
+    $('.js-wp-27').addClass('animated fadeIn');
+  }, {
+    // offset determines when the animation should start
+    offset: '70%'
+  });
+
   // END ANIMATONS -------------------------------------------------->
 
 
