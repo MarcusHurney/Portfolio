@@ -90,7 +90,9 @@ h2 {
 
 #cover {
   height: 100%;
-  background-color: #292929;
+  background: url('../img/apartment.jpeg') center center no-repeat;
+  background-size: cover;
+  height: 94%;
   color: white;
 }
 
@@ -167,7 +169,8 @@ h2 {
 
 .section-features {
   padding: 5rem 0;
-  background: url(../img/pattern.jpg) center center;
+  /* background: url(../img/pattern.jpg) center center; */
+  background-color: white;
 }
 
 .center {
