@@ -4,6 +4,7 @@ require('./settings/config');
 var express = require('express');
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
+var axios = require('axios');
 
 var app = express();
 const PORT = process.env.PORT || 3000;
@@ -46,3 +47,13 @@ app.post('/mail', function(req, res, next) {
 app.listen(PORT, function () {
 	console.log('Express listening on port ' + PORT + '!');
 });
+
+// make GET request to projects for faster load times on Heroku
+axios.get('https://point-of-sale-system.herokuapp.com/');
+axios.get('https://elephant-leg-brand.herokuapp.com/');
+axios.get('https://app-landing-page-demo.herokuapp.com/');
+axios.get('https://forecast-fetcher.herokuapp.com/');
+axios.get('https://xl-technology-demo.herokuapp.com/');
+axios.get('https://hotel-spa-demo.herokuapp.com/');
+axios.get('https://safe-house-chat.herokuapp.com/');
+axios.get('https://full-stack-user-authentication.herokuapp.com/');
