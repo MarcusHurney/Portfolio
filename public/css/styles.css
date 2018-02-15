@@ -4,7 +4,7 @@ html,
 body {
   height: 100%;
   font-size: 16px;
-  font-family: 'Inconsolata', monospace !important;
+  font-family: 'brandon-grotesque', sans-serif !important;
   background: url(../img/pattern.jpg) center center;
 }
 
@@ -38,7 +38,6 @@ h2 {
   background-color: transparent !important;
   border-radius: 5px;
   border: 1px solid #f7484e !important;
-  font-family: 'Karla', sans-serif;
   transition: 0.5s;
 }
 
@@ -112,7 +111,7 @@ h2 {
 }
 
 .moto {
-  font-family: 'Inconsolata', monospace !important;
+  font-family: 'brandon-grotesque', monospace !important;
   font-size: 2rem;
   margin-top: 165px;
   margin-left: 200px;
@@ -184,7 +183,6 @@ h2 {
 
 .center p {
   padding-top: 1rem;
-  font-family: 'Karla', sans-serif;
   font-size: 1.2rem;
 }
 
@@ -201,8 +199,12 @@ h2 {
 
 .heading,
 .under-heading {
-  font-family: 'Inconsolata', monospace;
+  line-height: 50px;
   text-align: center;
+}
+
+.github {
+  line-height: 40px !important;
 }
 
 .description {
@@ -535,9 +537,9 @@ h2 {
   transform: scale(0.95);
 }
 
-blockquote {
+/* blockquote {
   font-family: 'Karla', sans-serif;
-}
+} */
 
 .fa.fa-quote-left {
   padding-right: 10px;
